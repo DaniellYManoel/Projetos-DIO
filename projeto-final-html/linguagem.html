@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagem de programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>   
+        <div class="logo">
+            <img src="logo.png" width="60"/>
+        </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h2 id="Introdução">Introdução a Linguagem de Programação</h2>
+            <p>Linguagens de programação são conjuntos de
+                 regras que permitem escrever instruções para 
+                 o computador. Elas facilitam a criação de programas, 
+                 tornando o código mais compreensível para humanos 
+                 e mais portátil entre diferentes máquinas. O código 
+                 fonte é traduzido para código de máquina, que o 
+                 computador executa.</p>
+
+            <h2 id="Historia">Um pouco da história</h2>
+            <p>A história das linguagens de programação começa com Ada 
+                Lovelace, considerada a primeira programadora. Konrad 
+                Zuse criou uma das primeiras linguagens, o Plankalkül. 
+                Já o primeiro compilador foi feito por Grace Hopper em 
+                1952. Fortran foi a primeira linguagem de alto nível 
+                amplamente usada, seguida por linguagens como COBOL, 
+                ALGOL, Lisp e Prolog. A orientação a objetos surgiu 
+                com Simula 67 e foi expandida por linguagens como 
+                Smalltalk e C++.</p>
+            <p>Linguagens de programação podem ser compiladas (como C e 
+                Pascal), onde o código é traduzido todo de uma vez antes 
+                da execução, ou interpretadas (como Python e JavaScript),
+                 em que o código é executado à medida que é traduzido. 
+                 Algumas linguagens, como Java e C#, usam uma combinação 
+                 dos dois métodos, através de máquinas virtuais e técnicas 
+                 como JIT (Just-In-Time), que aumentam a performance ao compilar 
+                 partes do código conforme necessário.</p>
+
+            <h2 id="Conceito">Conceitos</h2>
+            <p>🧱 Programação Estruturada</p>
+                <ul>
+                    <li>. Baseada em três estruturas: sequência, decisão e repetição.</li>
+                    <li>. Usa sub-rotinas e funções para organizar o código.</li>
+                    <li>. Precedeu a programação orientada a objetos, mas ainda é amplamente ensinada.</li>
+                </ul>
+                <p>🧩 Programação Modular</p>
+                <ul>
+                    <li>. Divide o programa em módulos independentes, conectados por interfaces.</li>
+                    <li>. Melhora a organização, manutenção e reuso do código.</li>
+                    <li>. Exemplos: linguagens Modula-2 e Modula-3, criadas por Niklaus Wirth.</li>
+                </ul>
+                <p>🧠 Programação Orientada a Objetos (POO ou OOP)</p>
+                <ul>
+                    <li>. Modelo baseado em objetos que interagem entre si.</li>
+                    <li>. Objetos são definidos por classes com atributos e métodos.</li>
+                    <li>. Facilita o espelhamento do mundo real no software e reduz o “gap semântico”.</li>
+                    <li>. Usa conceitos como herança, encapsulamento e polimorfismo.</li>
+                </ul>
+                <p>📊 Programação Linear e Não-Linear</p>
+                <ul>
+                    <li>. Área da otimização matemática.</li>
+                    <li>. Linear: funções e restrições são lineares.</li>
+                    <li>. Não-linear: pelo menos uma função ou restrição é não-linear.</li>
+                    <li>. Aplicada em problemas de logística, economia e pesquisa operacional.</li>
+                </ul>
+            <h2 id="Classificação">Classificação das liguagem de programação</h2>
+            <h3><strong> Classificação segundo a ACM</strong></h3>
+            <ul>
+                <li>. Linguagens de aplicação</li>
+                <li>. Concorrentes, distribuídas e paralelas</li>
+                <li>. Fluxo de dados</li>
+                <li>. Projeto e extensíveis</li>
+                <li>. Montagem e macro</li>
+                <li>. Microprogramação</li>
+                <li>. Não determinísticas e não procedurais</li>
+                <li>. Orientadas a objeto</li>
+                <li>. Especializadas</li>
+                <li>. Altíssimo nível</li>
+            </ul>
+            
+            <h3><strong>Por Paradigma</strong></h3>
+            <p>- Imperativo (baseado em comandos e mudanças de estado):</p>
+            <ul>
+                <li>. Procedural: Fortran, BASIC</li>
+                <li>. Estruturas de blocos: ALGOL 60, Pascal, C</li>
+                <li>. Orientado a objetos (POO): Java, Python, Ruby, C++</li>
+                <li>. Computação distribuída: Ada</li>
+            </ul>
+            <p>- Declarativo (baseado em definição de resultados):</p>
+            <ul>
+                <li>Funcional: Lisp, Haskell, Scheme</li>
+                <li>Lógico: Prolog, Gödel</li>
+            </ul>
+
+            <h3><strong> Por Grau de Abstração</strong></h3>
+            <ul>
+                <li>. Baixo nível: Código de máquina (1GL), Assembly (2GL)</li>
+                <li>. Médio nível: C, C++</li>
+                <li>. Alto nível: Pascal, Java, Python, SQL</li>
+            </ul>
+
+            <h3><strong>Por Geração (Maclennan)</strong></h3>
+            <ul>
+                <li>    1ª geração: Linguagem de máquina (GOTO, sem estrutura)</li>
+                <li> 2ª geração: ALGOL 60 (estrutura melhorada)</li>
+                <li> 3ª geração: Pascal (simplicidade e foco em dados)</li>
+                <li> 4ª geração: Ada (modularização, encapsulamento)</li>
+                <li>  5ª geração: Prolog, Lisp (IA, lógica, funções)</li>
+            </ul>
+            <p>- Outras Classificações:</p>
+            <ul>
+                <li> 6ª geração (Henri Bal e Dick Grune): Redes neurais</li>
+            </ul>
+
+            <h3><strong>Exemplos Populares de Linguagens</strong></h3>
+            <ul>
+                <li>. Alto nível: Python, Java, JavaScript, C#, PHP, Ruby, SQL, R, MATLAB</li>
+                <li>. Baixo nível: Assembly</li>
+                <li>. Multiparadigma: Python, JavaScript, C++</li>
+            </ul>
+
+            <h2 id="Conclusão">Conclusão</h2>
+            <p>As linguagens de programação são ferramentas essenciais que evoluíram ao 
+                longo do tempo para atender às necessidades cada vez mais complexas do 
+                mundo da computação. Desde os primeiros códigos de máquina até linguagens 
+                modernas como Python e JavaScript, cada linguagem surgiu com o objetivo de 
+                facilitar a comunicação entre humanos e máquinas, aumentando a eficiência, 
+                a organização e a reutilização do código.</p>
+            <p>Entender as diferentes classificações, paradigmas e níveis de abstração 
+                ajuda programadores a escolherem a linguagem mais adequada para cada 
+                tipo de projeto. Além disso, conhecer a história e os conceitos por 
+                trás dessas linguagens permite uma visão mais crítica e estratégica no 
+                desenvolvimento de soluções computacionais.</p>
+            <p>Independentemente da linguagem escolhida, o mais importante é compreender 
+                bem seus fundamentos e aplicá-la com lógica, clareza e criatividade.
+            </p>
+        </div>
+
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#Introdução">Introdução</a></li>
+                <li><a href="#Historia">história</a></li>
+                <li><a href="#Conceito">Conceitos</a></li>
+                <li><a href="#Classificação">Classificação das liguagem de programação</a></li>
+                <li><a href="#Conclusão">Conclusão</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>

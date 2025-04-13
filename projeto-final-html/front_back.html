@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end e back-end</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+        }
+        table thead th{
+           background-color: black;
+           color: white;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td {
+            background-color: #E9E9E9;
+        }
+    </style>
+</head>
+<body>
+
+    <div>   
+        <div class="logo">
+            <img src="logo.png" width="60"/>
+        </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1>Front-end e Back-end</h1>
+            <h2 id="Introdução">Introdução</h2>
+            <p>Em ciência da computação, especialmente no desenvolvimento
+                 de sistemas e aplicações web, os termos front-end e 
+                 back-end são amplamente utilizados para distinguir 
+                 diferentes partes de um sistema. Eles representam, 
+                 respectivamente, a interface com a qual o usuário 
+                 interage diretamente (cliente) e a parte que processa 
+                 os dados e realiza operações no servidor (retaguarda). 
+                 Essa separação de responsabilidades facilita a organização, 
+                 manutenção e evolução dos sistemas.</p>
+            
+            <h2 id="O que é Front-end">1. O que é Front-end?</h2>
+            <p>O front-end refere-se à camada visual de um software ou aplicação. 
+                É tudo aquilo que o usuário vê e com o que ele interage: botões, 
+                menus, formulários, cores, animações e o layout em geral.</p>
+            <h3>Características:</h3>
+            <ul>
+                <li>. Envolve principalmente o design e a experiência do usuário (UI/UX).</li>
+                <li>. Lida com a entrada de dados do usuário, validando e formatando antes de enviá-los ao back-end.</li>
+                <li>. Executado no navegador do cliente.</li>
+            </ul>
+            <h3>Tecnologias comuns:</h3>
+            <ul>
+                <li>. HTML, CSS e JavaScript: base do desenvolvimento web.</li>
+                <li>. Frameworks e bibliotecas:</li>
+                <li>-> React</li>
+                <li>-> Angular</li>
+                <li>-> Vue.js</li>
+                <li>-> jQuery</li>
+                <li>-> AJAX</li>
+                <li>. Ferramentas de estilo e interface:</li>
+                <li>-> Bootstrap</li>
+                <li>-> Sass</li>
+                <li>-> Tailwind CSS</li>
+
+            <h2 id="O que é Back-end">2. O que é Back-end?</h2>
+            <p>O back-end é responsável pelo funcionamento interno da aplicação. 
+                Ele gerencia o banco de dados, autenticação, regras de negócio, 
+                segurança e a lógica de funcionamento por trás do que o usuário 
+                vê.</p>
+            <h3>Características:</h3>
+            <ul>
+                <li>Executado no servidor.</li>
+                <li>Processa e responde às requisições do front-end.</li>
+                <li>Conecta a aplicação com o banco de dados.</li>
+            </ul>
+            <h3>Tecnologias comuns:</h3>
+            <ul>
+                <li>Linguagens de programação:</li>
+                <li>-> Python</li>
+                <li>-> PHP</li>
+                <li>-> Java</li>
+                <li>-> C#</li>
+                <li>-> Ruby</li>
+                <li>-> JavaScript(Node.js)</li>
+                <li>Frameworks:</li>
+                <li>-> Django (Python)</li>
+                <li>-> Laravel (PHP)</li>
+                <li>-> Express (Node.js)</li>
+                <li>-> Spring (Java)</li>
+                <li>-> Ruby on Rails (Ruby)</li>
+                <li>Banco de Dados:</li>
+                <li>-> MySQL</li>
+                <li>-> PostgreSQL</li>
+                <li>-> MongoDB</li>
+                <li>-> SQLite</li>
+            </ul>
+            <h2 id="Diferença">3. Diferença entre Front-end e Back-end</h2>
+            <table width="700" align="center" cellspacing="0" cellpadding="5">
+                <thead>
+                   <tr>
+                        <th>Aspectos</th>
+                        <th>Font-end</th>
+                        <th>Back-end</th>
+                    </tr> 
+                </thead>
+                
+                <tr>
+                    <td>Visibilidade</td>
+                    <td>Visível ao usuário</td>
+                    <td>Invisível (executado no servidor)</td>
+                </tr>
+                <tr>
+                    <td>Linguagem</td>
+                    <td>HTML, CSS, JS, etc.</td>
+                    <td>PHP, Java, Python, etc.</td>
+                </tr>
+                <tr>
+                    <td>Função</td>
+                    <td>Interface, interação visual</td>
+                    <td>Lógica, banco de dados, segurança</td>
+                </tr>
+                <tr>
+                    <td>Execução</td>
+                    <td>Navegador</td>
+                    <td>Servidor</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#Introdução">Introdução</a></li>
+                <li><a href="#O que é Front-end">O que é Front-end?</a></li>
+                <li><a href="#O que é Back-end">O que é Back-end</a></li>
+                <li><a href="#Diferença">Diferença</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
