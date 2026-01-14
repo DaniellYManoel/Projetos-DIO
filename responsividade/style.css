@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pricipal {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.pricipal img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.conteudo {
+    position: absolute;
+    inset: 0;
+    padding: 40px 20px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.conteudo h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: clamp(2.7rem, 5vw, 3.5rem);
+    margin-bottom: 20px;
+    max-width: 400px;
+    line-height: 1.1;
+}
+
+.conteudo p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.botao1,
+.botao2 {
+    padding: 20px;
+    width: 450px;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.botao1 {
+    background: #fff;
+}
+
+.botao2 {
+    background: #23272A;
+    color: #fff;
+}
+
+.meio1 {
+    margin-top: 64px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.meio1 img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.meio1 .texto{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 410px;
+}
+
+.meio1 .texto strong{
+    font-size: 1.7rem;
+}
+
+.meio1 .texto p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #23272A;
+}
+
+.meio2{
+    width: 1600px;
+    height: 580px;
+    background-color: #f6f6f6;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.meio2 img{
+    max-width: 480px;
+}
+
+.meio2 .texto{
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+.meio2 .texto strong{
+    font-size: 1.7rem;
+}
+
+.meio2 .texto p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #23272A;
+    margin-bottom: 40px;
+}
+
+.meio3 img{
+    margin-left: 30px;
+    max-width: 450px;
+}
+
+.meio3{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+.meio3 .texto{
+    max-width: 370px;
+    margin-left: 20px;
+}
+
+.meio3 .texto strong{
+    font-size: 1.6rem;
+}
+
+.meio3 .texto p {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #23272A;
+}
+
+.meio4{
+    width: 1600px;
+    height: 750px;
+    background-color: #f6f6f6;
+    
+}
+
+.meio4 .texto{
+    max-width: 380px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.meio4 img{
+    max-width: 450px;
+    margin: 20px;
+}
+.meio4 .texto strong{
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 1.9rem;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.meio4 .texto p{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.rodape{
+    background-color: #23272A;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.rodape img{
+    max-width: 170px;
+}
+
+@media (min-width: 768px) {
+
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: flex-start;
+        padding-top: 60px;
+    }
+
+    .conteudo h2 {
+        font-size: 3.8rem;
+        max-width: 400px;
+    }
+
+    .conteudo p {
+        font-size: 1.2rem;
+        max-width: 900px;
+    }
+
+    .pricipal img {
+        width: 1700px;
+        height: 600px;
+
+        margin: -40px -50px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        max-width: none;
+    }
+
+    .botao1,
+    .botao2 {
+        padding: 20px 30px;
+        white-space: nowrap;
+        font-size: 1.3rem; 
+    }
+
+    .meio1{
+        margin-top: -200px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .meio1 img{
+        max-width: 730px;
+        width: auto;
+        margin: 0;
+    }
+
+    .meio1 .texto{
+        max-width: 380px;
+    }
+
+    .meio1 .texto strong{
+        display: block;
+        font-size: 3rem;
+    }
+
+    .meio1 .texto p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+
+    .meio2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .meio2 .texto {
+        max-width: 366px;
+        text-align: left;
+    }
+
+    .meio2 .texto strong{
+        font-size: 3rem;
+    }
+
+    .meio2 .texto p{
+        font-size: 1.1rem;
+    }
+
+    .meio2 img {
+        max-width: 730px;
+        width: auto;
+        margin: 0;
+    }
+
+    .meio3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        margin: 0 auto;  
+        margin-top: 70px;
+    }
+
+    .meio3.container{
+        max-width: 1100px;
+        padding: 0;
+    }
+
+    .meio3 img{
+        max-width: 900px;
+    }
+
+    .meio3 .texto{
+        max-width: 600px;
+
+    }
+
+    .meio3 .texto strong{
+        display: block;
+        font-size: 2.5rem;
+        margin-bottom: 24px;
+        line-height: 1.1;
+    }
+
+    .meio3 .texto p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+
+    .meio4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 100px;
+        height: 850px;
+    }
+
+    .meio4 .texto{
+        margin-left: 0px;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .meio4 .texto strong{ 
+        display: block;
+        font-size: 3rem;
+        max-width: 1000px;
+        margin-top: -50px;
+    }
+
+    .meio4 img{
+        max-width: 900px;
+    }
+
+
+    .rodape{
+    background-color: #23272A;
+    width: 1600px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    }
+
+    .rodape img{
+        max-width: 250px;
+    }
+}
